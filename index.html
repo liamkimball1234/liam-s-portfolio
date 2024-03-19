@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isaac's Portfolio</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        /* Add custom styles for particles container */
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Ensure particles are behind other elements */
+        }
+
+    </style>
+</head>
+
+<body class="bg-white m-0 p-0 h-full">
+    <!-- This is the beginning of my nav bar -->
+    <nav class="bg-gray-900 p-4 z-50 fixed w-full">
+        <div class="container mx-auto flex items-center justify-between">
+            <!-- This makes the image in my nav bar -->
+            <div class="flex items-center">
+                <!-- Change this to your name -->
+                <h1 class="text-white">Liams Portfolio</h1>
+            </div>
+            <div class="flex space-x-4">
+                <a data-aos="fade-up" data-aos-duration="500" href="#home" class="text-white text-sm md:text-base hover:text-red-500">Home</a>
+                <a data-aos="fade-up" data-aos-duration="750" href="#about" class="text-white text-sm md:text-base hover:text-red-500">About</a>
+                <a data-aos="fade-up" data-aos-duration="1000" href="#certifications" class="text-white text-sm md:text-base hover:text-red-500">Certifications</a>
+                <a data-aos="fade-up" data-aos-duration="1250" href="#downloads" class="text-white text-sm md:text-base hover:text-red-500">Downloads</a>
+                <a data-aos="fade-up" data-aos-duration="1500" href="#contact" class="text-white text-sm md:text-base hover:text-red-500">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- This is the ending of my navbar -->
+    <div id="particles-js"></div> <!-- Move particles container outside of flex container -->
+    <div id="home" class="flex flex-col justify-center items-center h-screen">
+        <h1 class="text-4xl font-bold text-center mb-4">Welcome to Liams Portfolio</h1>
+        <p class="text-lg text-gray-700 text-center mb-8">Discover my Accomplishments and Experiences.</p>
+        <a href="#" class="bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">Get Started</a>
+    </div>
+
+     <!--About Me Section-->
+  <section data-aos="fade-right" data-aos-duration="2000" id="about" class="bg-white bg-opacity-5 backdrop-blur-md border-2 border-gray-300 rounded-lg px-8 py-8 text-white text-center max-w-7xl mx-auto flex flex-col lg:flex-row items-center space-y-6 lg:space-y-0 lg:space-x-6">
+    <!-- Professional Photo on the left -->
+    <!-- Change the src image to your professional photo either through a file path or a URL -->
+    <img src="fortnite.jpg" alt="Professional Photo" class="w-full lg:w-80 h-96 lg:h-160 object-contain rounded-xl mb-4 lg:mb-0">
+    <!-- Text section on the right -->
+    <div class="text-center lg:text-left">
+      <h2 data-aos="fade-up" data-aos-duration="2000" class="text-black text-4xl font-bold mb-4">About Me</h2>
+      <!-- Change the text inside of this p element so that it is YOUR about me -->
+      <p data-aos="fade-up" data-aos-duration="2500" class="text-gray-600">
+        Hello there! I'm Liam Kimball, a passionate individual currently navigating the exciting worlds of high school education and professional work. At sixteen, I'm embracing the opportunities that come my way with enthusiasm and a drive to learn and grow.
+
+        Currently, I'm a student at Somerset High School and Somerset Technology Center, where I'm honing my skills and expanding my knowledge in various fields. Education isn't just about textbooks and lectures for me; it's about exploring my interests, challenging myself, and discovering new passions along the way.
+        
+        Outside of the classroom, I'm proud to be part of the team at Haunted Hollow. Working there isn't just a job; it's an immersive experience that allows me to engage with people, be creative, and contribute to something special. Whether it's crafting spooky atmospheres or ensuring guests have a memorable time, I thrive on the excitement and challenges that come with the role.
+        
+        In everything I do, I strive for excellence and am committed to pushing my boundaries to achieve my goals. I believe in the power of hard work, dedication, and a positive attitude to make a difference, both in my own life and in the lives of those around me.
+        
+        Thank you for taking the time to get to know a little about me. I'm excited about the journey ahead and the opportunities that await!
+        
+        
+
+          <p class="text-gray-600">Qualified for my competititve events State Competition of Website Coding & Development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-8" id="certifications">
+    <h2 class="text-center text-3xl font-semibold text-white mb-6">Certifications</h2>
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-4">
+      <!-- First Image and Description -->
+      <div data-aos="flip-up" data-aos-duration="2000" class="flex flex-col items-center">
+        <img src="osha.jpg" alt="Image 1" class="max-w-full h-auto rounded-lg">
+        <div class="mt-4 text-center md:text-left">
+          <h3 class="text-black text-xl font-bold">CareerSafe Cyber Safety Awareness</h3>
+          <p class="text-base text-gray-700">The OSHA Outreach Training Program for General Industry provides training for entry-level workers and employers on the recognition, avoidance, abatement, and prevention of safety and health hazards in workplaces in general industry. The program also provides information regarding workers' rights, employer responsibilities, and how to file a complaint. Through this training, OSHA helps to ensure that workers are more knowledgeable about workplace hazards and their rights.</p>
+        </div>
+      </div>
+  
+     
+
+    </div>
+  </section>
+
+  <div class="m-4 flex justify-center items-center min-h-screen">
+    <section id="downloads" class="bg-slate-300 p-6 rounded-lg shadow-lg md:w-1/2 lg:w-1/3">
+        <!-- Page Heading -->
+        <h1 class="text-2xl font-bold mb-4">My Resume and Cover Letter</h1>
+        
+        <!-- Download Links -->
+      <div class="bg-slate-300">
+        <div class="my-4">
+          <!-- Resume -->
+            <a href="ChrongicalResumeTemplate.docx" class="flex justify-center items-center bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm mb-2 md:mb-4">Download Resume</a>
+        </div>
+        <!-- Cover Letter -->
+        <div class="my-4">
+            <a href="cover letter.docx" class="flex justify-center items-center bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm mb-2 md:mb-4">Download Cover Letter</a>
+        </div>
+        <!-- Business Cards -->
+        <div class="my-4">
+          <a href="business cards 2.0.doc" class="flex justify-center items-center bg-gray-900 hover:bg-gray-700 text-white font-bold py-2 px-4 text-sm mb-2 md:mb-4">Download Business Cards</a>
+      </div>
+    </div>
+    </section>
+</div>
+
+<section id="contact" class="bg-slate-300 py-12">
+  <div class="container mx-auto text-center">
+    <h2 class="text-3xl font-semibold text-black mb-6">Contact Information</h2>
+    
+    <div class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
+      <!-- Contact Info Card 1 -->
+      <div data-aos="fade-up" data-aos-duration="2000" class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Email</h3>
+        <p class="text-gray-600">chippsfamily2013@gmail.com</p>
+      </div>
+      
+      <!-- Contact Info Card 2 -->
+      <div data-aos="fade-up" data-aos-duration="2000"  class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Phone</h3>
+        <p class="text-gray-600">(814)-442-4877</p>
+      </div>
+      
+      <!-- Contact Info Card 3 -->
+      <div data-aos="fade-up" data-aos-duration="2000" class="bg-white p-4 rounded-lg shadow-md">
+        <h3 class="text-xl font-semibold text-gray-800 mb-2">Address</h3>
+        <p class="text-gray-600">332 West Race St, Somerset Pennsylvania</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
